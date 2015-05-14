@@ -1,0 +1,7 @@
+# RPYC-File-Sharing-App-
+
+Python File Sharing using RPYC
+
+RPyC (Remote Python Call), is a transparent python library for symmetrical remote procedure calls, clustering and distributed-computing. RPyC makes use of a technique that employs python’s dynamic nature, to overcome the physical boundaries between processes and computers, so that remote objects can be manipulated as if they were local.
+
+The following implementation allows users to share files between clients. The implementation is as described below- 1. As a user when you first open the interface you will be prompted to enter your username. 2. The user now has three options to either share, download or view list of available files on a secured location the server. a. Download : In order to view the list of files present in the directory the user enters the “show” command. This displays the names of all files present in the directory. The user can then enter the name of the file he wishes to download after which the file is downloaded to his local directory. If the user enters a file name that is not present on the server a File does not exist exception is thrown. b. Share: A user can share a file on the server through the “Share” command. This functionality transfers a file from the user’s local directory to the server’s directory. The user can share individual files or an entire folder on the server. A folder is automatically zipped before being uploaded on the server.
